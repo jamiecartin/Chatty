@@ -11,6 +11,11 @@
 		D76A578129C2A07C00160C55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A578029C2A07C00160C55 /* ContentView.swift */; };
 		D76A578329C2A07C00160C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76A578229C2A07C00160C55 /* Assets.xcassets */; };
 		D76A578629C2A07C00160C55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76A578529C2A07C00160C55 /* Preview Assets.xcassets */; };
+		D76A578E29C2A45D00160C55 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A578D29C2A45D00160C55 /* TitleRow.swift */; };
+		D76A579129C2A71F00160C55 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A579029C2A71F00160C55 /* Message.swift */; };
+		D76A579329C2A90300160C55 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A579229C2A90300160C55 /* MessageBubble.swift */; };
+		D76A579529C2B11D00160C55 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A579429C2B11D00160C55 /* Extensions.swift */; };
+		D76A579729C2B3AB00160C55 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A579629C2B3AB00160C55 /* MessageField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		D76A578029C2A07C00160C55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D76A578229C2A07C00160C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D76A578529C2A07C00160C55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D76A578D29C2A45D00160C55 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		D76A579029C2A71F00160C55 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D76A579229C2A90300160C55 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		D76A579429C2B11D00160C55 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D76A579629C2B3AB00160C55 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,11 @@
 			children = (
 				D76A577E29C2A07C00160C55 /* ChattyApp.swift */,
 				D76A578029C2A07C00160C55 /* ContentView.swift */,
+				D76A578F29C2A70100160C55 /* Models */,
+				D76A578C29C2A43900160C55 /* Components */,
 				D76A578229C2A07C00160C55 /* Assets.xcassets */,
 				D76A578429C2A07C00160C55 /* Preview Content */,
+				D76A579429C2B11D00160C55 /* Extensions.swift */,
 			);
 			path = Chatty;
 			sourceTree = "<group>";
@@ -65,6 +78,24 @@
 				D76A578529C2A07C00160C55 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D76A578C29C2A43900160C55 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D76A578D29C2A45D00160C55 /* TitleRow.swift */,
+				D76A579229C2A90300160C55 /* MessageBubble.swift */,
+				D76A579629C2B3AB00160C55 /* MessageField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D76A578F29C2A70100160C55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D76A579029C2A71F00160C55 /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D76A578129C2A07C00160C55 /* ContentView.swift in Sources */,
+				D76A579529C2B11D00160C55 /* Extensions.swift in Sources */,
+				D76A579129C2A71F00160C55 /* Message.swift in Sources */,
+				D76A579729C2B3AB00160C55 /* MessageField.swift in Sources */,
+				D76A579329C2A90300160C55 /* MessageBubble.swift in Sources */,
 				D76A577F29C2A07C00160C55 /* ChattyApp.swift in Sources */,
+				D76A578E29C2A45D00160C55 /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
